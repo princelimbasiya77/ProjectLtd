@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.w-100{
+    width: 100%;
+    /* height: 43px; */
+}
+.w-1140{
+    width: 1140px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.w-33{
+    width: 33.33%;
+}
+.end{
+    justify-content: end;
+}
+.center{
+    justify-content: center;
+}
+.mail ul li a{
+    margin-right: 15px;
+}
+.mail ul li a i{
+    margin-right: 8px;
+}
+.social ul li a{
+    margin-left: 10px;
+}
+.bg-color{
+    background-color: #003366;
+}
+.tw{
+    color: #fff;
+}
+.ptb-10{
+    padding: 20px 0px; 
+}
+.font-14{
+    font-size: 14px;
+}
+.w-20{
+    width: 20%;
+}
+.w-80{
+    width: 80%;
+}
+.w-20 img{
+    margin: 5px 0px;
+}
+
+.w-80 ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #2e2d2c;
+    text-transform: uppercase;
+    padding: 30px 10px;
+    display: block;
+}
+.yellowtxt:hover{
+    color: #ffbc06;
+}
+
+
+
+.slider{
+    width: 100%;
+    height: 510px;
+    background-image: url(https://www.cdmi.in/sliders/Game-Design--Development.jpg);
+    background-size: cover;
+    animation: slider 30s ease-in-out 5s infinite ;
+}
+
+
+.btn-next , .btn-prev{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 25px);
+    line-height: 50px;
+}
+.btn-prev{
+    right: 70px;
+}
+.btn-next{
+    left: 70px;
+}
+.btn-next i , .btn-prev i{
+    color: #fff;
+}
+.pos-rel{
+    position: relative;
+}
+.h3{
+    text-align: center;
+    
+    margin-top: 48px;
+    padding-top: 50px;
+}
+.f1{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.f2{
+    font-size: 32px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+}.a2{
+    width: calc(33.33% - 17px);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #ccc;
+}
+.w-video img{
+    width: 100%;
+}
+.btw{
+    justify-content: space-between;
+}
+.w-rate{
+    border-top: 1px solid #ccc;
+}
+.pd-10{
+    padding: 20px;
+}
+.w-know a{
+    padding: 10px 15px;
+    background-color: #003366;
+    color: white;
+    font-family: 'roboto','sans-serif';
+    display: block;
+    border-radius: 4px;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.gap{
+    gap: 22px;
+}
+.mm{
+    color: #ffbc06;
+    margin-top: 10px;
+}
+.w-view{
+    padding: 12px 30px;
+    background-color: #ffbc06;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    line-height: 30px;    
+}
+.w-view ul li a{
+    color: white;
+    line-height: 20px;
+}
+.w-60{
+    width: 60%;
+    padding: 50px;
+    background-color:white;
+    border-radius: 0px 250px 250px 0px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-right: -50px;
+    z-index: 1;
+    
+}
+.w-40{
+    width: 40%;
+    
+}
+.box{
+    display: flex;
+    
+}
+.w-40 img{
+    width: 100%;
+    margin-top: 65px;
+}
+.pg1{
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-right: 30px;
+    line-height: 25px;
+}
+.now{
+    padding: 12px 30px;
+    background-color: #ffbc06;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+    
+}
+.now ul li a{
+    color: white;
+    line-height: 20px;
+}
+.about{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-bottom: 16px;
+}
+.text{
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333232;
+    font-family: 'Rubik', sans-serif;
+}
+.w-100{
+    width: 100%;
+}
+
+.z-i{
+    z-index: 999;
+}
+
+
+.menu{
+    width: 88%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+    position: absolute;
+    display: none;
+    left: 0;
+    padding: 30px 20px;
+    z-index: 999;
+}
+.w-60{
+    width: 55%;
+}
+.flex{
+    display: flex;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.w-25{
+    width: 25%;
+    
+}
+.w-25 ul li a{
+    padding: 5px 0px;
+    text-transform: capitalize;
+    font-weight: 200;
+    line-height: 22px;
+}
+.w-80 ul li:hover .menu{
+    display: block;
+}
+.w-25 ul h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.w-25 ul li a i{
+    margin: 5px;
+}
+.menu-2{
+    margin-bottom: 3px;
+}
+.icon:hover{
+    color: #ffbc06;
+}
+
+
+.student{
+    background-image: url(https://www.cdmi.in/assets/front/images/counter_bg.jpg);
+    height: 252px;
+    background-position: 0px -765px;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
